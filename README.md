@@ -34,7 +34,7 @@ When using the API you can send a POST requests to add HWID's, here's how:
 3. Get your Discord ID paste it (`replacing <DISCORD ID>`) after the "ID: "
 4. Align everything into one line then paste it into your command prompt
 
-```r
+```
 $ curl -X POST http://localhost/api/v1/supersecret
     -H "Authorization: <SUPER_SECRET>"
     -H "HWID: <HWID>"
