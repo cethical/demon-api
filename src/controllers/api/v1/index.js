@@ -7,7 +7,7 @@ const hwid = require('./hwid');
 
 function launch(req, res) {
     return res.status(200).json({
-        message: 'OK: Functional',
+        message: 'OK',
         code: 200
     });
 }
