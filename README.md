@@ -21,7 +21,7 @@ module.exports = {
         URI: 'uri',
     },
 
-    SUPER_SECRET: 'this is the authorization when adding hwids to the database',
+    SUPER_SECRET: 'secure string',
     PORT: 80 // Server port, keep it at 80
 }
 ```
