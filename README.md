@@ -6,7 +6,7 @@ Demons very own API for handling all requests from the selfbot, including HWID, 
 > I'd suggest downloading the [MongoDB Compass](https://www.mongodb.com/products/compass)  
 
 ## Setting up the config
-> URL: mongodb+srv://<username>:<password>@<uri>/<database>
+> URL: `mongodb+srv://<username>:<password>@<uri>/<database>`
 
 Get the queries from the link above  
 Then paste the following in ./src/utils/index.js
