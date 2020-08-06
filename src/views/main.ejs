@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title><%- reddit %></title>
+
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <div class="section">
+            <div class="header">
+                <h1>Daddy's Angels <br>hover over the images!</h1>
+                
+                <% if (array.length == 0) { %>
+                    <h1>Nothing found here :(</h1>
+                <% } %>
+            </div>
+
+            <div class="img-body">
+                <% for (let data of array) { %>
+                    <div class="img-item" style="--background: url('<%- data.url %>')">
+                        <b><p><%- data.title %></p></b>
+                        <img src="<%- data.url %>" alt=":3">
+                    </div>
+                <% } %>
+            </div>
+
+            <div class="footer">
+                <h1><a href="/">More? :3</a></h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
