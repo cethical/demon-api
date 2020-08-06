@@ -1,0 +1,3 @@
+# Dream Services | Demon API
+
+Demons very own API for handling all requests from the selfbot, including HWID, Announcements, etc...
