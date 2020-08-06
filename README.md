@@ -31,7 +31,7 @@ When using the API you can send a POST requests to add HWID's, here's how:
  
 1. Get the SUPER_TOKEN from the index file above paste it (`replacing <SUPER_SECRET>`) after "Authorization: "
 2. Now open the selfbot while the API is running, when the selfbot is up wait for your HWID to display then paste it (`replacing <HWID>`) after "HWID: "
-3. Get your Discord ID paste it (`replacing <ID>`) after the "ID: "
+3. Get your Discord ID paste it (`replacing <DISCORD ID>`) after the "ID: "
 4. Align everything into one line then paste it into your command prompt
 
 ```r
